@@ -15,7 +15,8 @@ exports.config = {
 
     params: {
         defaultTimeout: 60000,
-        onlinerByURL: "https://www.onliner.by/"
+        onlinerByURL: "https://www.onliner.by/",
+        barakholkaURL: "https://baraholka.onliner.by/"
     },
 
 

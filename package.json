@@ -5,9 +5,10 @@
   "main": "index.js",
   "scripts": {
     "postinstall": "node ./node_modules/protractor/bin/webdriver-manager update",
-    "webdriver": "node ./node_modules/protractor/bin/webdriver-manager start",
+    "webdriver": "node ./node_modules/protractor/bin/webdriver-manager start --versions.chrome  90.0.4430.24",
     "tests": "node ./node_modules/protractor/bin/protractor ./protractor.conf.js",
     "smoketests": "node ./node_modules/protractor/bin/protractor ./protractor.conf.js  --cucumberOpts.tags=@smoke",
+    "webdriver-update": "node ./node_modules/protractor/bin/webdriver-manager update --versions.chrome  90.0.4430.24",
     "update-reporter": "node ./node_modules/serenity-cli/bin/serenity update",
     "report": "./node_modules/.bin/serenity run"
   },
