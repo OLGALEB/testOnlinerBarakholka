@@ -1,3 +1,1 @@
-test
-test
-test1234
+#for run tests: npm run tests
